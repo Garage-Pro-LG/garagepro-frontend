@@ -9,6 +9,12 @@ export const routes: Routes = [
 
   },
   {
+    path: 'search',
+    title: 'gp',
+    loadComponent: () => import('./pages/home/home.component').then(c => c.HomeComponent),
+
+  },
+  {
     path: 'calendar',
     title: 'gp - calendar',
     loadComponent: () => import('./pages/calendar/calendar.component').then(c => c.CalendarComponent),
