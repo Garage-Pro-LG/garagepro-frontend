@@ -23,9 +23,9 @@ export class CalendarComponent {
     firstDay: 1,
     // themeSystem: 'bootstrap',
     headerToolbar: {
-      left: 'title',
-      center: 'dayGridMonth,listWeek',
-      right: 'prev,today,next'
+      left: 'prev',
+      center: 'title',
+      right: 'dayGridMonth,listWeek,today,next'
     },
     buttonText: {
       today: 'avui',
