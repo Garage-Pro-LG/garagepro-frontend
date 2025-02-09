@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { NgbModal, NgbModalConfig } from '@ng-bootstrap/ng-bootstrap';
+import { AddEventModalComponent } from '../../modals/add-event-modal/add-event-modal.component';
 
 @Component({
   selector: 'app-add-event-button',
@@ -10,4 +12,10 @@ import { RouterModule } from '@angular/router';
 })
 export class AddEventButtonComponent {
 
+  modalService = inject(NgbModal);
+  modalConfig = inject(NgbModalConfig);
+
+  addEventModal(){
+    this.modalService.open(AddEventModalComponent,{ size: 'md', centered: true, scrollable: true,})
+  }
 }
