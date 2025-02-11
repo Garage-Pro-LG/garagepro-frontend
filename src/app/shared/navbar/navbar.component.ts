@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { SearchInputComponent } from '../../components/search-input/search-input.component';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [],
+  imports: [ SearchInputComponent],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })
