@@ -1,0 +1,54 @@
+[
+  {
+    "id_car": "1",
+    "client_id": "1001",
+    "car_brand": "Toyota",
+    "model": "Corolla",
+    "insurance": "Allianz",
+    "insurance_policy": "A123456",
+    "chassis": "JTDBU4EE9B9123456",
+    "event_id": "E001",
+    "car_usage_type": "Personal",
+    "created_at": "2025-01-01T10:00:00Z",
+    "updated_at": "2025-01-10T10:00:00Z"
+  },
+  {
+    "id_car": "2",
+    "client_id": "1002",
+    "car_brand": "Honda",
+    "model": "Civic",
+    "insurance": "Mapfre",
+    "insurance_policy": "B654321",
+    "chassis": "2HGFB2F50DH123456",
+    "event_id": "E002",
+    "car_usage_type": "Commercial",
+    "created_at": "2025-02-01T11:00:00Z",
+    "updated_at": "2025-02-10T11:00:00Z"
+  },
+  {
+    "id_car": "3",
+    "client_id": "1003",
+    "car_brand": "Ford",
+    "model": "Focus",
+    "insurance": "AXA",
+    "insurance_policy": "C789012",
+    "chassis": "1FAHP3F20CL123456",
+    "event_id": "E003",
+    "car_usage_type": "Personal",
+    "created_at": "2025-03-01T12:00:00Z",
+    "updated_at": "2025-03-10T12:00:00Z"
+  },
+  {
+    "id_car": "4",
+    "client_id": "1004",
+    "car_brand": "Chevrolet",
+    "model": "Malibu",
+    "insurance": "Zurich",
+    "insurance_policy": "D345678",
+    "chassis": "1G1ZB5ST5HF123456",
+    "event_id": "E004",
+    "car_usage_type": "Commercial",
+    "created_at": "2025-04-01T13:00:00Z",
+    "updated_at": "2025-04-10T13:00:00Z"
+  }
+]

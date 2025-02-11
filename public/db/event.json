@@ -1,0 +1,62 @@
+[
+  {
+    "id_event": "E001",
+    "car_id": "1",
+    "damage": "Frontal collision",
+    "booking_date": "2025-02-05",
+    "booking_time": "09:00",
+    "reparation_start": "2025-01-06T08:00:00Z",
+    "reparation_end": "2025-01-10T17:00:00Z",
+    "delayed_date": "2025-01-11T00:00:00Z",
+    "hours_forecast": 40,
+    "hours_real": 45,
+    "courtesy_car": true,
+    "created_at": "2025-01-01T10:00:00Z",
+    "updated_at": "2025-01-10T18:00:00Z"
+  },
+  {
+    "id_event": "E002",
+    "car_id": "2",
+    "damage": "Rear-end collision",
+    "booking_date": "2025-02-10",
+    "booking_time": "12:30",
+    "reparation_start": "2025-02-11T08:00:00Z",
+    "reparation_end": "2025-02-15T17:00:00Z",
+    "delayed_date": "2025-02-16T00:00:00Z",
+    "hours_forecast": 35,
+    "hours_real": 38,
+    "courtesy_car": false,
+    "created_at": "2025-02-01T11:00:00Z",
+    "updated_at": "2025-02-15T18:00:00Z"
+  },
+  {
+    "id_event": "E003",
+    "car_id": "3",
+    "damage": "Side swipe",
+    "booking_date": "2025-02-14",
+    "booking_time": "10:15",
+    "reparation_start": "2025-03-16T08:00:00Z",
+    "reparation_end": "2025-03-20T17:00:00Z",
+    "delayed_date": "2025-03-21T00:00:00Z",
+    "hours_forecast": 30,
+    "hours_real": 32,
+    "courtesy_car": true,
+    "created_at": "2025-03-01T12:00:00Z",
+    "updated_at": "2025-03-20T18:00:00Z"
+  },
+  {
+    "id_event": "E004",
+    "car_id": "4",
+    "damage": "Broken windshield",
+    "booking_date": "2025-02-14",
+    "booking_time": "16:10",
+    "reparation_start": "2025-04-21T08:00:00Z",
+    "reparation_end": "2025-04-22T17:00:00Z",
+    "delayed_date": "2025-04-23T00:00:00Z",
+    "hours_forecast": 10,
+    "hours_real": 12,
+    "courtesy_car": false,
+    "created_at": "2025-04-01T13:00:00Z",
+    "updated_at": "2025-04-22T18:00:00Z"
+  }
+]

@@ -28,27 +28,6 @@
   color: #ffffff;
 }
 
-
-::ng-deep .custom-calendar .fc-daygrid-day-frame {
-  border: none;
-}
-
-::ng-deep .custom-calendar .fc-daygrid-day {
-  border: none;
-}
-
-::ng-deep .custom-calendar .fc {
-  border: none;
-}
-
-::ng-deep .custom-calendar .fc .fc-col-header-cell {
-  border: none;
-}
-
- ::ng-deep .custom-calendar .fc .fc-daygrid-cell {
-  border: none;
-}
-
 ::ng-deep .custom-calendar .fc .fc-daygrid-day-number{
   text-decoration: none;
   color: black;
@@ -65,5 +44,20 @@
 }
 
 ::ng-deep .custom-calendar .fc .fc-day-today {
-  background-color: #e5e7f487; /* Cambia el color de fondo del día actual */
+  background-color: #e2e2e272;
+}
+
+::ng-deep .custom-calendar .fc .fc-daygrid-event {
+  background-color: #007bff36; /* Cambia el color de fondo del evento */
+  font-size: 9pt; /* Cambia el tamaño de la fuente del evento */
+}
+
+::ng-deep .custom-calendar .fc .fc-daygrid-event:hover {
+  background-color:  #ffffff; /* Cambia el color de fondo del evento al pasar el ratón */
+
+}
+
+::ng-deep .custom-calendar .fc .fc-daygrid-event .fc-event-title {
+  font-weight: light; /* Cambia el peso de la fuente del título del evento */
+  color:  #007bff;
 }

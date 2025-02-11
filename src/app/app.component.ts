@@ -7,7 +7,7 @@ import { SearchInputComponent } from './components/search-input/search-input.com
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ RouterOutlet, SidebarComponent, SearchInputComponent ],
+  imports: [ RouterOutlet, SidebarComponent, NavbarComponent, SearchInputComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

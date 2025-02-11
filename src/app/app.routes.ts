@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 
+
 export const routes: Routes = [
 
   {
@@ -9,9 +10,9 @@ export const routes: Routes = [
 
   },
   {
-    path: 'search',
-    title: 'gp',
-    loadComponent: () => import('./pages/home/home.component').then(c => c.HomeComponent),
+    path: 'repair-details/:id_event',
+    title: 'gp - repair-details',
+    loadComponent: () => import('./components/repair-details/repair-details.component').then(c => c.RepairDetailsComponent),
 
   },
   {

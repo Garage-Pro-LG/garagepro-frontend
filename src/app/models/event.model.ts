@@ -5,7 +5,7 @@ export class Event implements IEvent {
   car_id: string;
   damage: string;
   booking_date: Date;
-  booking_time: Date;
+  booking_time: string;
   reparation_start: Date;
   reparation_end: Date;
   delayed_date: Date;
