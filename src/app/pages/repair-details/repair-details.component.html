@@ -1,0 +1,13 @@
+<div class="card m-4 p-5" *ngIf="carDetails && eventDetails">
+  <h4>Fitxa reparació</h4>
+  <h6> {{ eventDetails.booking_time }}</h6>
+  <h6> {{ eventDetails.booking_date }}</h6>
+  <h6> Entrega: {{ eventDetails.reparation_end }}</h6>
+  <hr>
+  <h6>Matricula: {{ carDetails.id_car }}</h6>
+  <h6>{{ carDetails.car_brand }} {{ carDetails.model }}</h6>
+  <h6>{{ carDetails.insurance_policy }}</h6>
+  <hr>
+  <h6>{{ eventDetails.damage }}</h6>
+  <h6>Vehicle substitució: {{ eventDetails.courtesy_car }}</h6>
+</div>

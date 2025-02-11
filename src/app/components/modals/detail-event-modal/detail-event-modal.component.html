@@ -3,18 +3,18 @@
     <h4 class="card-title">matricula</h4>
     <hr>
     <ul class="list-unstyled p-3">
-      <li><strong>Hora</strong> {{ event.extendedProps.booking }}</li>
-      <li><strong>Dia</strong> {{ event.extendedProps.booking_day }}</li>
-      <li><strong>Client</strong> {{ event.extendedProps.client }}</li>
-      <li><strong>Contacte</strong> {{ event.extendedProps.contact }}</li>
-      <li><strong>Cotxe substitució</strong> {{ event.extendedProps.vehicle }}</li>
-      <li><strong>Reparació</strong> {{ event.extendedProps.reparation }}</li>
+      <li>Hora {{ eventDetails?.booking_time }}</li>
+      <li>Dia {{ eventDetails?.booking_date }}</li>
+      <!-- TODO: events vinculate to a client -->
+      <li>{{carDetails?.car_brand}} {{ carDetails?.model }}</li>
+      <li>Cotxe substitució {{ eventDetails?.courtesy_car }}</li>
+      <li>Reparació {{ eventDetails?.damage }}</li>
     </ul>
     <hr>
     <div class="d-flex justify-content-center pt-3">
       <button class="btn btn-outline-danger me-4" (click)="backToCalendar()">Tanca</button>
       <button class="btn btn-secondary me-4"(click)="openBudget()"  >Pressupost</button>
-      <button class="btn btn-primary">Reparació</button>
+      <button class="btn btn-primary" (click)="openRepairDetails()">Reparació</button>
     </div>
 
   </div>

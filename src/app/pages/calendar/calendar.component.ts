@@ -50,12 +50,8 @@ export class CalendarComponent implements OnInit {
         title: `${event.booking_time}: ${event.id_event} `,
         start: event.booking_date,
         extendedProps: {
-          vehicle: event.courtesy_car,
-          reparation: event.damage,
-          booking: event.booking_time,
-          booking_day: event.booking_date,
-          client: 'xxx xxxx',
-          contact: '123 456 789',
+          id_event: event.id_event,
+
         }
       }));
       this.calendarOptions = {
@@ -68,7 +64,9 @@ export class CalendarComponent implements OnInit {
 
   handleEventClick(arg: EventClickArg): void {
     const modalRef = this.modalService.open(DetailEventModalComponent, { size: 'md' });
-    modalRef.componentInstance.event = arg.event;
+    const id_event = arg.event.extendedProps['id_event']; // Obtener id_event de extendedProps
+    modalRef.componentInstance.id_event = id_event; // Pasar solo id_event
+
   }
 }
 
