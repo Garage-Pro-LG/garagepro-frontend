@@ -1,6 +1,6 @@
 [
   {
-    "id_car": "1",
+    "id_car": "1234ABC",
     "client_id": "1001",
     "car_brand": "Toyota",
     "model": "Corolla",
@@ -13,7 +13,7 @@
     "updated_at": "2025-01-10T10:00:00Z"
   },
   {
-    "id_car": "2",
+    "id_car": "5678DFG",
     "client_id": "1002",
     "car_brand": "Honda",
     "model": "Civic",
@@ -26,7 +26,7 @@
     "updated_at": "2025-02-10T11:00:00Z"
   },
   {
-    "id_car": "3",
+    "id_car": "8910HJK",
     "client_id": "1003",
     "car_brand": "Ford",
     "model": "Focus",
@@ -39,7 +39,7 @@
     "updated_at": "2025-03-10T12:00:00Z"
   },
   {
-    "id_car": "4",
+    "id_car": "1112LMN",
     "client_id": "1004",
     "car_brand": "Chevrolet",
     "model": "Malibu",

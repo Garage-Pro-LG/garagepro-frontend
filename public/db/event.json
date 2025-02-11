@@ -1,7 +1,7 @@
 [
   {
     "id_event": "E001",
-    "car_id": "1",
+    "car_id": "1234ABC",
     "damage": "Frontal collision",
     "booking_date": "2025-02-05",
     "booking_time": "09:00",
@@ -16,7 +16,7 @@
   },
   {
     "id_event": "E002",
-    "car_id": "2",
+    "car_id": "4567DFG",
     "damage": "Rear-end collision",
     "booking_date": "2025-02-10",
     "booking_time": "12:30",
@@ -31,7 +31,7 @@
   },
   {
     "id_event": "E003",
-    "car_id": "3",
+    "car_id": "8910HJK",
     "damage": "Side swipe",
     "booking_date": "2025-02-14",
     "booking_time": "10:15",
@@ -46,7 +46,7 @@
   },
   {
     "id_event": "E004",
-    "car_id": "4",
+    "car_id": "1112LMN",
     "damage": "Broken windshield",
     "booking_date": "2025-02-14",
     "booking_time": "16:10",

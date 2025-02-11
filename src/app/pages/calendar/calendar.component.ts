@@ -47,7 +47,7 @@ export class CalendarComponent implements OnInit {
   ngOnInit(): void {
     this.calendarService.getEvents().subscribe((events: Event[]) => {
       const transformedEvents = events.map(event => ({
-        title: `${event.booking_time}: ${event.id_event} `,
+        title: `${event.booking_time}: ${event.car_id} `,
         start: event.booking_date,
         extendedProps: {
           id_event: event.id_event,
