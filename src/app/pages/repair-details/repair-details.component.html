@@ -1,13 +1,72 @@
-<div class="card m-4 p-5" *ngIf="carDetails && eventDetails">
-  <h4>Fitxa reparació</h4>
-  <h6> {{ eventDetails.booking_time }}</h6>
-  <h6> {{ eventDetails.booking_date }}</h6>
-  <h6> Entrega: {{ eventDetails.reparation_end }}</h6>
-  <hr>
-  <h6>Matricula: {{ carDetails.id_car }}</h6>
-  <h6>{{ carDetails.car_brand }} {{ carDetails.model }}</h6>
-  <h6>{{ carDetails.insurance_policy }}</h6>
-  <hr>
-  <h6>{{ eventDetails.damage }}</h6>
-  <h6>Vehicle substitució: {{ eventDetails.courtesy_car }}</h6>
+<div class="card p-4 p-md-5 m-md-4">
+  <div class="row pb-4">
+    <h4>Cita amb NOM CLIENT</h4>
+    <h6>{{ eventDetails.booking_date }} a les {{ eventDetails.booking_time }}</h6>
+  </div>
+  <h6 class="card-header">Dades Cita </h6>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-6">
+        <ul>
+          <li class="">Data: {{ eventDetails.booking_date }}</li>
+          <li class="">Hora: {{ eventDetails.booking_time }}</li>
+          <li class="">Entrega: {{ eventDetails.reparation_end }}</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul>
+          <li class="">Hores previstes: {{ eventDetails.hours_forecast }}</li>
+          <li class="">Hores reals: {{ eventDetails.hours_real }}</li>
+          <li class="">Entrega postposada a: {{ eventDetails.delayed_date }}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <p><strong>Motiu: </strong></p>
+      <p class="custom-motiu border pb-5">{{ eventDetails.damage }}</p>
+    </div>
+  </div>
+
+  <h6 class="card-header">Dades Reparació </h6>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-6">
+        <ul>
+          <li class="">Matricula: {{ carDetails.id_car }}</li>
+          <li class="">Cotxe: {{ carDetails.car_brand }}</li>
+          <li class="">Model: {{ carDetails.model }}</li>
+          <li>Xassis: {{ carDetails.chassis }}</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul>
+          <li class="">Asseguradora: {{ carDetails.insurance }}</li>
+          <li class="">Pòlissa: {{ carDetails.insurance_policy }}</li>
+          <li class="">Ús: {{ carDetails.car_usage_type }}</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <h6 class="card-header">Cotxe substitució </h6>
+  <div class="card-body">
+        <ul>
+          <li class="">Data: {{ eventDetails.booking_date }}</li>
+          <li class="">Hora: {{ eventDetails.booking_time }}</li>
+          <li class="">Entrega: {{ eventDetails.reparation_end }}</li>
+        </ul>
+  </div>
+  <h6 class="card-header">Dades Client </h6>
+  <div class="card-body">
+        <ul>
+          <li class="">Data: {{ eventDetails.booking_date }}</li>
+          <li class="">Hora: {{ eventDetails.booking_time }}</li>
+          <li class="">Entrega: {{ eventDetails.reparation_end }}</li>
+        </ul>
+  </div>
+
+
+
+
+
 </div>
