@@ -1,0 +1,8 @@
+<div class="card-body"  *ngIf="clientDetails">
+  <ul>
+    <li>Nom: {{ clientDetails.name }}</li>
+    <li>Adreça: {{ clientDetails.address }} {{ clientDetails.city }}</li>
+    <li>Email: {{ clientDetails.email }}</li>
+    <li>Telèfon: {{ clientDetails.phone }}</li>
+  </ul>
+</div>

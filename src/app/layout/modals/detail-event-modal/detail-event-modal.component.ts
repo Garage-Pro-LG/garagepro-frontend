@@ -53,7 +53,7 @@ export class DetailEventModalComponent {
 
   openRepairDetails() {
     this.modalService.dismissAll();
-    this.router.navigate(['/repairdetails', this.id_event]);
+    this.router.navigate(['/repair', this.id_event]);
   }
 
 }

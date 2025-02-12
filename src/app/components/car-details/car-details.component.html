@@ -1,0 +1,17 @@
+<div class="row" *ngIf="carDetails">
+  <div class="col-md-6">
+    <ul>
+      <li class="">Matricula: {{ carDetails.id_car }}</li>
+      <li class="">Cotxe: {{ carDetails.car_brand }}</li>
+      <li class="">Model: {{ carDetails.model }}</li>
+      <li>Xassis: {{ carDetails.chassis }}</li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <ul>
+      <li class="">Asseguradora: {{ carDetails.insurance }}</li>
+      <li class="">Pòlissa: {{ carDetails.insurance_policy }}</li>
+      <li class="">Ús: {{ carDetails.car_usage_type }}</li>
+    </ul>
+  </div>
+</div>
