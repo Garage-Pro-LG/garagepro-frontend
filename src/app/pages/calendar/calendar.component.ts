@@ -11,7 +11,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 import { CalendarService } from '../../services/calendar.service';
 import { Event } from '../../models/event.model';
-import { DetailEventModalComponent } from '../../components/modals/detail-event-modal/detail-event-modal.component';
+import { DetailEventModalComponent } from '../../layout/modals/detail-event-modal/detail-event-modal.component';
 
 
 

@@ -1,7 +1,7 @@
 [
   {
     "id_car": "1234ABC",
-    "client_id": "1001",
+    "client_id": "12345678P",
     "car_brand": "Toyota",
     "model": "Corolla",
     "insurance": "Allianz",
@@ -13,8 +13,8 @@
     "updated_at": "2025-01-10T10:00:00Z"
   },
   {
-    "id_car": "5678DFG",
-    "client_id": "1002",
+    "id_car": "4567DFG",
+    "client_id": "23456789S",
     "car_brand": "Honda",
     "model": "Civic",
     "insurance": "Mapfre",
@@ -27,7 +27,7 @@
   },
   {
     "id_car": "8910HJK",
-    "client_id": "1003",
+    "client_id": "4567890N",
     "car_brand": "Ford",
     "model": "Focus",
     "insurance": "AXA",
@@ -40,7 +40,7 @@
   },
   {
     "id_car": "1112LMN",
-    "client_id": "1004",
+    "client_id": "45678901W",
     "car_brand": "Chevrolet",
     "model": "Malibu",
     "insurance": "Zurich",
@@ -50,5 +50,19 @@
     "car_usage_type": "Commercial",
     "created_at": "2025-04-01T13:00:00Z",
     "updated_at": "2025-04-10T13:00:00Z"
+  },
+  {
+    "id_car": "1314OPQ",
+    "client_id": "45678901W",
+    "car_brand": "Toyota",
+    "model": "Yaris",
+    "insurance": "Allianz",
+    "insurance_policy": "A123456",
+    "chassis": "JTDBU4EE9B9123456",
+    "event_id": "E005",
+    "car_usage_type": "Personal",
+    "created_at": "2025-05-01T14:00:00Z",
+    "updated_at": "2025-05-10T14:00:00Z"
   }
+
 ]

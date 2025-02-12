@@ -10,9 +10,9 @@ export const routes: Routes = [
 
   },
   {
-    path: 'repairdetails/:id',
-    title: 'gp - repair-details',
-    loadComponent: () => import('./pages/repair-details/repair-details.component').then(c => c.RepairDetailsComponent),
+    path: 'repair/:id',
+    title: 'gp - repair',
+    loadComponent: () => import('./pages/repair/repair.component').then(c => c.RepairComponent),
 
   },
   {
