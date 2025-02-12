@@ -6,18 +6,17 @@ body{
   background-color: #f8f9fa;
 }
 
-.btn {
-  font-weight: lighter;
-
-}
 
 .card{
-  border-radius: 20pt;
+  border-radius: 10pt;
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
+.navbar-toggler {
+  border: none;
+}
 
 input {
-  border-radius: 20pt;
+  border-radius: 10pt;
 }
