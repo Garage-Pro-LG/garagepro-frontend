@@ -14,11 +14,19 @@ import { EventDetailsComponent } from '../../components/event-details/event-deta
 import { CarDetailsComponent } from '../../components/car-details/car-details.component';
 import { ClientDetailsComponent } from '../../components/client-details/client-details.component';
 
+import { EditEventButtonComponent } from '../../layout/buttons/edit-event-button/edit-event-button.component';
+
 
 @Component({
   selector: 'app-repair',
   standalone: true,
-  imports: [CommonModule, EventDetailsComponent,CarDetailsComponent, ClientDetailsComponent ],
+  imports: [
+    CommonModule,
+    EventDetailsComponent,
+    CarDetailsComponent,
+    ClientDetailsComponent,
+    EditEventButtonComponent
+  ],
   templateUrl: './repair.component.html',
   styleUrl: './repair.component.scss'
 })
