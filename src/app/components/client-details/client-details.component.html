@@ -1,8 +1,8 @@
-<div class="card-body"  *ngIf="clientDetails">
+<div class="card-body" *ngIf="clientDetails">
   <ul>
-    <li>Nom: {{ clientDetails.name }}</li>
-    <li>Adreça: {{ clientDetails.address }} {{ clientDetails.city }}</li>
-    <li>Email: {{ clientDetails.email }}</li>
-    <li>Telèfon: {{ clientDetails.phone }}</li>
+    <li class="item">Nom:<span class="value">{{ clientDetails.name }}</span></li>
+    <li class="item">Adreça:<span class="value">{{ clientDetails.address }} {{ clientDetails.city }}</span></li>
+    <li class="item">Email:<span class="value">{{ clientDetails.email }}</span></li>
+    <li class="item">Telèfon:<span class="value">{{ clientDetails.phone }}</span></li>
   </ul>
 </div>

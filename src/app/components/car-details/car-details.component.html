@@ -1,17 +1,17 @@
-<div class="row" *ngIf="carDetails">
+<div class="row pb-5" *ngIf="carDetails">
   <div class="col-md-6">
     <ul>
-      <li class="">Matricula: {{ carDetails.id_car }}</li>
-      <li class="">Cotxe: {{ carDetails.car_brand }}</li>
-      <li class="">Model: {{ carDetails.model }}</li>
-      <li>Xassis: {{ carDetails.chassis }}</li>
+      <li class="item">Matricula:<span class="value">{{ carDetails.id_car }}</span></li>
+      <li class="item">Cotxe:<span class="value">{{ carDetails.car_brand }}</span></li>
+      <li class="item">Model:<span class="value">{{ carDetails.model }}</span></li>
+      <li class="item">Xassis:<span class="value">{{ carDetails.chassis }}</span></li>
     </ul>
   </div>
   <div class="col-md-6">
     <ul>
-      <li class="">Asseguradora: {{ carDetails.insurance }}</li>
-      <li class="">Pòlissa: {{ carDetails.insurance_policy }}</li>
-      <li class="">Ús: {{ carDetails.car_usage_type }}</li>
+      <li class="item">Asseguradora:<span class="value">{{ carDetails.insurance }}</span></li>
+      <li class="item">Pòlissa:<span class="value">{{ carDetails.insurance_policy }}</span></li>
+      <li class="item">Ús:<span class="value">{{ carDetails.car_usage_type }}</span></li>
     </ul>
   </div>
 </div>
