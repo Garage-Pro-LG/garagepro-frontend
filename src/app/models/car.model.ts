@@ -11,6 +11,8 @@ export class Car implements ICar {
   chassis: string;
   event_id: string;
   car_usage_type: string;
+  car_status: string;
+  car_details: string;
   created_at: Date;
   updated_at: Date;
 
@@ -24,6 +26,8 @@ export class Car implements ICar {
     this.chassis = car.chassis;
     this.event_id = car.event_id;
     this.car_usage_type = car.car_usage_type;
+    this.car_status = car.car_status;
+    this.car_details = car.car_details;
     this.created_at = car.created_at;
     this.updated_at = car.updated_at;
   }

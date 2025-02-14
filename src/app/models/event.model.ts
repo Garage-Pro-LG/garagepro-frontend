@@ -11,6 +11,8 @@ export class Event implements IEvent {
   delayed_date: Date;
   hours_forecast: number;
   hours_real: number;
+  event_details: string;
+  event_status: string;
   courtesy_car: boolean;
   created_at: Date;
   updated_at: Date;
@@ -26,6 +28,8 @@ export class Event implements IEvent {
     this.delayed_date = data.delayed_date;
     this.hours_forecast = data.hours_forecast;
     this.hours_real = data.hours_real;
+    this.event_details = data.event_details;
+    this.event_status = data.event_status;
     this.courtesy_car = data.courtesy_car;
     this.created_at = data.created_at;
     this.updated_at = data.updated_at;

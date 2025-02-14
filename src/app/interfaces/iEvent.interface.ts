@@ -9,6 +9,8 @@ export interface IEvent {
   delayed_date: Date;
   hours_forecast: number;
   hours_real: number;
+  event_details: string;
+  event_status: string;
   courtesy_car: boolean;
   created_at: Date;
   updated_at: Date;

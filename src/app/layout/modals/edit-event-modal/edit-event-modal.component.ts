@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-edit-event-modal',
@@ -9,4 +10,5 @@ import { Component } from '@angular/core';
 })
 export class EditEventModalComponent {
 
+   public activeModal  = inject(NgbActiveModal);
 }

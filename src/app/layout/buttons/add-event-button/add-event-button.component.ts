@@ -16,6 +16,6 @@ export class AddEventButtonComponent {
   modalConfig = inject(NgbModalConfig);
 
   addEventModal(){
-    this.modalService.open(AddEventModalComponent,{ size: 'md', centered: true, scrollable: true,})
+    this.modalService.open(AddEventModalComponent,{ size: 'lg', centered: true, scrollable: true,})
   }
 }
