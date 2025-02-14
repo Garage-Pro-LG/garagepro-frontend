@@ -10,6 +10,8 @@
     "delayed_date": "2025-01-11T00:00:00Z",
     "hours_forecast": 40,
     "hours_real": 45,
+    "event_details": "lorem ipsum dolor sit amet consectetur adipiscing elit",
+    "event_status": "In Progress ",
     "courtesy_car": true,
     "created_at": "2025-01-01T10:00:00Z",
     "updated_at": "2025-01-10T18:00:00Z"
@@ -26,6 +28,8 @@
     "hours_forecast": 35,
     "hours_real": 38,
     "courtesy_car": false,
+    "event_details": "lorem ipsum dolor sit amet consectetur adipiscing elit",
+    "event_status": "In Progress ",
     "created_at": "2025-02-01T11:00:00Z",
     "updated_at": "2025-02-15T18:00:00Z"
   },
@@ -41,6 +45,8 @@
     "hours_forecast": 30,
     "hours_real": 32,
     "courtesy_car": true,
+    "event_details": "lorem ipsum dolor sit amet consectetur adipiscing elit",
+    "event_status": "In Progress ",
     "created_at": "2025-03-01T12:00:00Z",
     "updated_at": "2025-03-20T18:00:00Z"
   },
@@ -56,6 +62,8 @@
     "hours_forecast": 10,
     "hours_real": 12,
     "courtesy_car": false,
+    "event_details": "lorem ipsum dolor sit amet consectetur adipiscing elit",
+    "event_status": "Delayed ",
     "created_at": "2025-04-01T13:00:00Z",
     "updated_at": "2025-04-22T18:00:00Z"
   }

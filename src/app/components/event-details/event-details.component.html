@@ -1,21 +1,39 @@
-<div class="row pb-5" *ngIf="eventDetails">
+<div class="row pb-4" *ngIf="eventDetails">
   <div class="col-md-6">
     <ul>
-      <li class="">Data: {{ eventDetails.booking_date }}</li>
-      <li class="">Hora: {{ eventDetails.booking_time }}</li>
-      <li class="">Entrega: {{ eventDetails.reparation_end }}</li>
-      <li>Cotxe Substitució: {{ eventDetails.courtesy_car }}</li>
+      <li class="item">Data: <span class="value">{{ eventDetails.booking_date }}</span> </li>
+      <li class="item">Hora: <span class="value">{{ eventDetails.booking_time }}</span></li>
+      <li class="item">Entrega: <span class="value">{{ eventDetails.reparation_end }}</span> </li>
+      <li>Cotxe Substitució: <span class="value">{{ eventDetails.courtesy_car }}</span></li>
     </ul>
   </div>
   <div class="col-md-6">
     <ul>
-      <li class="">Hores previstes: {{ eventDetails.hours_forecast }}</li>
-      <li class="">Hores reals: {{ eventDetails.hours_real }}</li>
-      <li class="">Entrega postposada a: {{ eventDetails.delayed_date }}</li>
+      <li class="item">Hores previstes: <span class="value">{{ eventDetails.hours_forecast }}</span></li>
+      <li class="item">Hores reals: <span class="value">{{ eventDetails.hours_real }}</span></li>
+      <li class="item">Entrega postposada a: <span class="value">{{ eventDetails.delayed_date }}</span> </li>
     </ul>
   </div>
-  <p><strong>Motiu: </strong></p>
-  <span>{{ eventDetails.damage }}</span>
+</div>
+<div class="row pb-3">
+  <div class="col">
+    <ul>
+      <li>
+        <span>Tipus de reparació:</span>
+        <p>{{ eventDetails.damage }}</p>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="row pb-4">
+  <div class="col">
+    <ul>
+      <li>
+        <span>Observacions:</span>
+        <p>{{ eventDetails.event_details  }}</p>
+      </li>
+    </ul>
+  </div>
 </div>
 
 

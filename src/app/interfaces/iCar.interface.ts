@@ -8,6 +8,8 @@ export interface ICar {
   chassis: string;
   event_id: string;
   car_usage_type: string;
+  car_status: string;
+  car_details: string;
   created_at: Date;
   updated_at: Date;
 }

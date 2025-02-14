@@ -9,6 +9,8 @@
     "chassis": "JTDBU4EE9B9123456",
     "event_id": "E001",
     "car_usage_type": "Personal",
+    "car_status": "Active",
+    "car_details":"lorem ipsum dolor sit amet consectetur adipiscing elit",
     "created_at": "2025-01-01T10:00:00Z",
     "updated_at": "2025-01-10T10:00:00Z"
   },
@@ -22,6 +24,8 @@
     "chassis": "2HGFB2F50DH123456",
     "event_id": "E002",
     "car_usage_type": "Commercial",
+    "car_status": "Active",
+    "car_details":"lorem ipsum dolor sit amet consectetur adipiscing elit",
     "created_at": "2025-02-01T11:00:00Z",
     "updated_at": "2025-02-10T11:00:00Z"
   },
@@ -35,6 +39,8 @@
     "chassis": "1FAHP3F20CL123456",
     "event_id": "E003",
     "car_usage_type": "Personal",
+    "car_status": "Active",
+    "car_details":"lorem ipsum dolor sit amet consectetur adipiscing elit",
     "created_at": "2025-03-01T12:00:00Z",
     "updated_at": "2025-03-10T12:00:00Z"
   },
@@ -48,6 +54,8 @@
     "chassis": "1G1ZB5ST5HF123456",
     "event_id": "E004",
     "car_usage_type": "Commercial",
+    "car_status": "Active",
+    "car_details":"lorem ipsum dolor sit amet consectetur adipiscing elit",
     "created_at": "2025-04-01T13:00:00Z",
     "updated_at": "2025-04-10T13:00:00Z"
   },
@@ -61,6 +69,8 @@
     "chassis": "JTDBU4EE9B9123456",
     "event_id": "E005",
     "car_usage_type": "Personal",
+    "car_status": "Active",
+    "car_details":"lorem ipsum dolor sit amet consectetur adipiscing elit",
     "created_at": "2025-05-01T14:00:00Z",
     "updated_at": "2025-05-10T14:00:00Z"
   }

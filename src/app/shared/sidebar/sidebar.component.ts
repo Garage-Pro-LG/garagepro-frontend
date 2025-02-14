@@ -3,6 +3,7 @@ import { CalendarButtonComponent } from '../../layout/buttons/calendar-button/ca
 import { BudgetButtonComponent } from '../../layout/buttons/budget-button/budget-button.component';
 import { AddEventButtonComponent } from '../../layout/buttons/add-event-button/add-event-button.component';
 import { SearchButtonComponent } from '../../layout/buttons/search-button/search-button.component';
+import { AddCarButtonComponent } from '../../layout/buttons/add-car-button/add-client-button.component';
 
 @Component({
   selector: 'app-sidebar',
@@ -11,6 +12,7 @@ import { SearchButtonComponent } from '../../layout/buttons/search-button/search
             CalendarButtonComponent,
             BudgetButtonComponent,
             AddEventButtonComponent,
+            AddCarButtonComponent
 
           ],
   templateUrl: './sidebar.component.html',
